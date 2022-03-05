@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="email=no">
+  <meta name="format-detection" content="adress=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="img/favicon.png">
+  <title>Cloudera | Programe Overview</title>
+  <link rel="stylesheet" href="style/overview.css">
+  <link rel="stylesheet" href="style/media.css">
+  <link rel="stylesheet" href="style/swiper-bundle.min.css">
+</head>
+
+<body>
+  <!--
+  <header class="header">
+    <div class="container">
+      <div class="navbtn"><img src="img/navbtn.png" alt=""></div>
+      <div class="navbar">
+        <span class="close"><img src="img/close.png" alt=""></span>
+        <ul>
+          <li><a href="/" title="">Promote & Sell</a></li>
+          <li><a href="pipeline.html" title="">My Pipeline</a></li>
+          <li><a href="#" title="">navigation 3</a></li>
+          <li><a href="#" title="">navigation 4</a></li>
+          <li><a href="#" title="">navigation 5</a></li>
+          <li><a href="#" title="">navigation 6</a></li>
+        </ul>
+      </div>
+      <div class="logo"><a href="#" title=""><img src="img/cloudera_logo.png" alt=""></a></div>
+
+      <div class="head-right">
+        <a href="#" class="reg-deal">Register Deal</a>
+        <ul>
+          <li><a href="profile.html"><img src="img/user_icon.png" alt=""></a></li>
+          <li><a href="#"><img src="img/search_icon.png" alt=""></a></li>
+          <li><a href="#"><img src="img/world_icon.png" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+-->
+
+<header class="header">
+  <div class="container">
+  <div class="navbtn">  
+      <div class="dropdown">
+          <button class="dropbtn"><img src="/img/navbtn.png" alt=""></button>
+          <div class="dropdown-content">
+            <a href="landing.html">Landing</a>
+            <a href="pipeline.html">My Pipeline</a>
+            <a href="overview.html">Programe Overview</a>            
+            <a href="Enable.html">Enable</a>
+            <a href="promote.html">Promote & Sell</a>               
+            <a href="com.html">Community</a> 
+            <a href="deal.html">Deal Registration</a>
+            <a href="SolutionCompetency.html">Solution Competency</a>
+            <a href="faqs.html">FAQ</a>
+            <a href="TechCert.html">Technology Certification</a>
+          </div>
+        </div>
+  </div>
+
+    <div class="logo"><a href="#" title=""><img src="/img/cloudera_logo.png" alt="logo"></a></div>
+
+    <div class="head-right">
+      <a href="#" class="reg-deal">Register Deal</a>
+      <ul>
+        <li><a href="profile.html"><img src="/img/user_icon.png" alt=""></a></li>
+        <li><a href="#"><img src="/img/search_icon.png" alt=""></a></li>
+        <li><a href="#"><img src="/img/world_icon.png" alt=""></a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+  <!--<div class="page-name">-->
+    <!--Etxra Feature - Javacript carousel slideshow HTML code-->
+<section class="slideshow-container">
+  <section class="carousel-inner">
+    <section class="mySlides fade">
+      <img src="img/Slideshow1.jpg" style="width:100%" alt="Girl on a laptop studying from home">
+    </section>
+
+ <section class="carousel-inner">
+  <section class="mySlides fade">
+    <img src="img/Slideshow2.jpg" style="width:100%" alt="Man smiling on a Zoom call">
+  </section>
+
+<section class="carousel-inner">
+  <section class="mySlides fade">
+    <img src="img/Slideshow3.jpg" style="width:100%" alt="Boy smiling while working on a laptop.">
+  </section>
+
+<section class="carousel-inner">
+  <section class="mySlides fade">
+    <img src="img/Slideshow4.jpg" style="width:100%" alt="Girl attending school on her laptop">
+  </section>
+ 
+<section class="carousel-inner">
+  <section class="mySlides fade">
+    <img src="img/Slideshow5.jpg" style="width:100%" alt="Two smiling teenagers on a laptop call.">
+  </section>
+  <br>
+
+  <!--The slideshow markers beneath the image slideshow-->
+<section style="text-align:center">
+    <span class="dot"></span> 
+      <span class="dot"></span> 
+        <span class="dot"></span> 
+          <span class="dot"></span> 
+            <span class="dot"></span> 
+          </section>
+        </section>
+      </section>
+    </section>
+  </section>
+</section>
+</section>
+
+  <!--The beginning of a javascript function-->
+  <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1} // If the image number is greater than the length of   
+      for (i = 0; i < dots.length; i++) {              // the slideshow, then return to image 1 of the slideshow
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+    // End of the javascript function for an image carousel
+    </script>
+    <!--<div class="container">My Pipeline</div>-->
+  <!--</div>-->
+
+  <div class="pipeline-tab-wrapper">
+    <div class="container">
+      <div class="tab-nav">
+        <a href="javascript:;" class="current">Benefits</a>
+        <a href="javascript:;">Requirements</a>
+      </div>
+  
+      <div class="pipeline-slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide deal-reg">
+            <!--<ul class="num-data">
+              <li>
+                <span>Number of Partners</span>
+                <strong>5</strong>
+              </li>
+              <li>
+                <span>Number of Deals</span>
+                <strong>5</strong>
+              </li>
+              <li>
+                <span>Average Deal Size</span>
+                <strong>€375,000</strong>
+              </li>
+              <li>
+                <span>Total Value</span>
+                <strong>€400,000</strong>
+              </li>
+            </ul>-->
+            <!--<div class="filter-table">-->
+              <!--<div class="condition">
+                <select name="" id="">
+                  <option value="">~Select Partner Company~</option>
+                </select>
+                <select name="" id="">
+                  <option value="">~Select Group~</option>
+                </select>
+                <select name="" id="">
+                  <option value="">~Select Stage~</option>
+                </select>
+                <button class="filter-btn">Filter</button>
+              </div>-->
+              <!--<table class="filter-data">
+                <thead>
+                  <tr>
+                    <th>Data</th>
+                    <th>Customer</th>
+                    <th>Amount</th>
+                    <th>Stage</th>
+                    <th>Closed</th>
+                    <th>Partner</th>
+                    <th>Partner</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2020-08-20</td>
+                    <td>Maroon Consultancy Technology</td>
+                    <td>0</td>
+                    <td>New</td>
+                    <td></td>
+                    <td>Cloudera.inc</td>
+                    <td>Gina Sandoval</td>
+                  </tr>
+                  <tr>
+                    <td>2020-08-14</td>
+                    <td>Sustainable Development Company</td>
+                    <td>10000</td>
+                    <td>Working</td>
+                    <td></td>
+                    <td>Cloudera.inc</td>
+                    <td>Gina Sandoval</td>
+                  </tr>
+                  <tr>
+                    <td>2020-07-16</td>
+                    <td>Calculating Logistic Company</td>
+                    <td>5000</td>
+                    <td>Finished</td>
+                    <td>2020-08-20</td>
+                    <td>Cloudera.inc</td>
+                    <td>Sydney Rogers</td>
+                  </tr>
+                  <tr>
+                    <td>2020-06-06</td>
+                    <td>Purple Interface Company</td>
+                    <td>0</td>
+                    <td>New</td>
+                    <td></td>
+                    <td>Cloudera.inc</td>
+                    <td>Frida Gonzelaz</td>
+                  </tr>
+                  <tr>
+                    <td>2020-06-06</td>
+                    <td>Dilligent Wastewater Company</td>
+                    <td>0</td>
+                    <td>New</td>
+                    <td></td>
+                    <td>Cloudera.inc</td>
+                    <td>Sydney Rogers</td>
+                  </tr>
+                </tbody>
+              </table>-->
+            <!--</div>-->
+            <div class="benefits">
+              <img src="img/BenefitsTable.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide leads">
+            <!--<div class="by-filter">
+              <h3>Filter By:</h3>
+              <select name="" id="">
+                <option value="">Partner Company</option>
+              </select>
+              <select name="" id="">
+                <option value="">Select Stage</option>
+              </select>
+              <select name="" id="">
+                <option value="">Partner Contact</option>
+              </select>
+              <button class="filter-btn">Filter</button>
+            </div>
+            <div class="filter-table">
+              <table class="filter-data">
+                <thead>
+                  <tr>
+                    <th>Sales rep</th>
+                    <th>Stage</th>
+                    <th>Partner Company</th>
+                    <th>Partner Contact</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2020-08-20</td>
+                    <td>New</td>
+                    <td>Cloudera.inc</td>
+                    <td>Gina Sandoval</td>
+                  </tr>
+                  <tr>
+                    <td>2020-08-14</td>
+                    <td>Working</td>
+                    <td>Cloudera.inc</td>
+                    <td>Gina Sandoval</td>
+                  </tr>
+                  <tr>
+                    <td>2020-07-16</td>
+                    <td>Finished</td>
+                    <td>Cloudera.inc</td>
+                    <td>Sydney Rogers</td>
+                  </tr>
+                  <tr>
+                    <td>2020-06-06</td>
+                    <td>New</td>
+                    <td>Cloudera.inc</td>
+                    <td>Frida Gonzelaz</td>
+                  </tr>
+                  <tr>
+                    <td>2020-06-06</td>
+                    <td>New</td>
+                    <td>Cloudera.inc</td>
+                    <td>Sydney Rogers</td>
+                  </tr>
+                </tbody>
+              </table>-->
+              <div class="requirements">
+                <img src="img/Capture.png" alt="" width="150%" height="80%">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="icons">
+    <ul>
+      <li>
+        <img src="img/icon1.svg" alt="icon 1">
+        <div class="icontitle">View Cloudera Solution</div>
+        <div class="icondescrip">Lorem ipsum dolor, 
+          sit amet consectetur adipisicing elit.</div>
+      </li>
+      <li>
+        <img src="img/icon2.svg" alt="icon 1">
+        <div class="icontitle">View Cloudera Partners</div>
+        <div class="icondescrip">Lorem ipsum dolor, 
+          sit amet consectetur adipisicing elit.</div>
+      </li>
+      <li>
+        <img src="img/icon3.svg" alt="icon 1">
+        <div class="icontitle">View Terms & Conditions</div>
+        <div class="icondescrip">Lorem ipsum dolor, 
+          sit amet consectetur adipisicing elit.</div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="foot-nav">
+        <div class="item">
+          <h3>products</h3>
+          <ul>
+            <li><a href="#" title="">Cloudera Data Platform</a></li>
+            <li><a href="#" title="">Data Hub</a></li>
+            <li><a href="#" title="">Data Warehouse</a></li>
+            <li><a href="#" title="">Data Flow</a></li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3>solutions</h3>
+          <ul>
+            <li><a href="#" title="">Customer Analytics</a></li>
+            <li><a href="#" title="">IoT/Connected Products</a></li>
+            <li><a href="#" title="">Industry Solutions</a></li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3>downloads</h3>
+          <ul>
+            <li><a href="#" title="">Cloudera Data Flow</a></li>
+            <li><a href="#" title="">CDP Private Cloud</a></li>
+            <li><a href="#" title="">Cloudera Director</a></li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3>more</h3>
+          <ul>
+            <li><a href="#" title="">About</a></li>
+            <li><a href="#" title="">News & Blogs</a></li>
+            <li><a href="#" title="">Investor Relations</a></li>
+            <li><a href="#" title="">Events</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="web-name">CLOUDERA</div>
+        <div class="share">
+          <a href="#"><img src="img/facebook.png" alt=""></a>
+          <a href="#"><img src="img/twitter.png" alt=""></a>
+          <a href="#"><img src="img/ins.png" alt=""></a>
+        </div>
+        <h3 class="title">contact us</h3>
+        <div class="text">
+          <p>United States: +1 888 789 1488</p>
+          <p>Outside the US: +1 650 362 0488</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+
+  <script>
+    $(function() {
+      const pipelineSlide = new Swiper('.pipeline-slide', {
+        speed: 0,
+        autoHeight: true,
+        slidesPerView: 1,
+        simulateTouch: false
+      })
+      $('.tab-nav a').click(function() {
+        let index = $(this).index();
+        pipelineSlide.slideTo(index);
+        $(this).addClass('current').siblings().removeClass('current');
+      })
+    })
+  </script>
+</body>
+
+</html>
